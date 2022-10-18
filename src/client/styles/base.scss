@@ -1,0 +1,31 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex: 2;
+}
+
+section {
+	max-width: 800px;
+	margin: 50px auto;
+}
+
+strong {
+	color: red;
+	text-align: center;
+	display: block;
+	font-size: 28px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+#results > ul {
+	text-align: center;
+	margin-top: 15px;
+	color: blue;
+	font-size: 20px;
+	font-weight: 500;
+}
